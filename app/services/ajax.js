@@ -5,7 +5,7 @@ import { isUnauthorizedError } from 'ember-ajax/errors';
 
 export default AjaxService.extend({
   routeAfterAuthentication: 'search-client',
-	host: 'https://ancient-depths-81057.herokuapp.com/',
+	host: 'https://ancient-depths-81057.herokuapp.com',
 
 	session: Ember.inject.service(),
   	headers: Ember.computed('session.data.authenticated.token', {

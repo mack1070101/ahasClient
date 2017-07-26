@@ -30,7 +30,7 @@ module.exports = function(environment) {
 
     if (environment === 'development') {
 	ENV.host = 'http://localhost:4200';
-  ENV.server = 'https://ahas.herokuapp.com';
+  ENV.server = 'https://ancient-depths-81057.herokuapp.com';
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
